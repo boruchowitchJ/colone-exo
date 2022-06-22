@@ -12,6 +12,8 @@
 .fz18{ font-size:1.8rem; }
 .fz20{ font-size:2rem; }
 .fz30{ font-size:3rem; }
+.fz40{font-size: 4rem;}
+.fz60{ font-size:6rem; }
 
 
 .p10{ padding:10px; }
@@ -28,12 +30,13 @@
 .pv20{ padding:20px 0; }
 .pv30{ padding:30px 0; }
 .pv40{ padding:40px 0; }
+.pv70{ padding:70px 0; }
 
 
 .m10{ margin:10px; }
 .m20{ margin:20px; }
 .m30{ margin:30px; }
-.m40{ margin:40px; }
+.m40{ margin:60px; }
 
 .mh10{ margin:0 10px; }
 .mh20{ margin:0 20px; }
@@ -51,9 +54,4 @@ img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-
-*{
-    box-sizing: border-box;
 }
