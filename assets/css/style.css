@@ -1,0 +1,81 @@
+:root{
+    --bg:#2c2c3d;
+    --circle:red;
+    --divider:rgb(203, 0, 0);
+    --bg-article:white;
+}
+
+
+body{
+    background-color: var(--bg);
+}
+
+
+section.hero{
+    height:500px;
+    position: relative;
+}
+
+section.hero .logo{
+    position:absolute;
+    top: 25%;
+    height:200px;
+}
+
+section.hero .logo .circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: var(--circle);
+    position:absolute;
+    top: calc(500px / 100);
+    left:calc((100% - 150px) / 2);
+}
+
+
+section.hero .logo img{
+    width:350px;
+    object-fit: contain;
+    z-index: 2;
+    position: inherit;
+    top:calc(500px / 10);
+    left:calc((100% - 350px) / 2);
+}
+
+
+section.menu{
+    height:500px;
+}
+
+section.menu article{
+    background-color: var(--bg-article);
+    height: 100%;
+}
+
+section.menu article h2{
+    margin-top:100px;
+}
+
+section.menu article .divider{
+    height:5px;
+    background-color: var(--divider);
+    width: 30px;
+    margin: 30px auto;
+}
+
+section.menu article p{
+    margin-top:30px;
+    line-height: 1.5;
+}
+
+section.menu aside{
+    height: 500px;
+}
+
+
+@media screen and (max-width:768px)
+{
+    section.menu{
+        height:auto;
+    }
+}
